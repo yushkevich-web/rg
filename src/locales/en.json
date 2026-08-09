@@ -1,15 +1,13 @@
 {
   "fullScreen": {
-    "subtitleFirst": "Cultivating resilience,",
-    "subtitleSecond": "one garden at a time"
+    "subtitleFirst": "Planting the seeds of innovation,",
+    "subtitleSecond": "resilience, and hope"
   },
   "aboutSection": {
     "firstTitle": "About us",
-    "firstText": "ResiliencyGardens.org is a charitable organization dedicated to educating future generations by investing in school and community gardens that showcase sustainable agricultural practices, promote healthy living, and foster environmental stewardship.",
-    "secondTitle": "Our goal",
-    "secondText": "To create dynamic, hands-on learning environments that deepen our understanding of ecological processes, while inspiring people of all ages to experience the joy of growing and eating their own food.",
-    "thirdTitle": "Our vision",
-    "thirdText": "A world where communities are resilient, self-sufficient, and actively engaged in sustainable food systems that foster personal well-being and contribute to the health of our planet."
+    "firstText": "Resiliency Gardens plants the seeds of resilience by investing in school gardens, intergenerational learning, and locally driven partnerships that help children and youth actively participate in sustainable food systems, strengthen their own well-being, and care for the health of our planet.",
+    "secondTitle": "Why it matters",
+    "secondText": "The deterioration of our natural environment endangers our well-being and future of today’s youth. By equipping youth with critical thinking, problem-solving skills, and resilience, we prepare them to tackle global challenges and become responsible citizens committed to a sustainable future."
   },
   "mattersSection": {
     "title": "Why it matters",
@@ -17,9 +15,27 @@
     "secondText": "By equipping youth with critical thinking, problem-solving skills, and resilience, we prepare them to tackle global challenges and become responsible citizens committed to a sustainable future."
   },
   "solutionSection": {
-    "title": "Our Solutions",
+    "title": "Our Work",
+    "description": "Resiliency Gardens began in 2022 as a compassionate response to the urgent need to support Ukrainian refugee children integrating into Polish schools. What began as a group of individual school garden grants has grown into citywide partnerships, local educator networks, and new models for environmental and sustainable food-system learning.",
+    "schoolGardens": {
+      "title": "School Gardens: Where the Work Takes Root",
+      "firstText": "Resiliency Gardens partners with schools to create outdoor classrooms and living laboratories where students connect with food, nature, the environment and each other.",
+      "secondText": "Through hands-on planting, tending, and harvesting, young people discover how healthy ecosystems and communities are grown and leave with a deeper sense of their own role in shaping a more resilient, sustainable world.",
+      "learnMore": "Learn more"
+    },
+    "educationalPartners": {
+      "title": "Educational Partners: The local leaders who bring educational gardening to life",
+      "firstText": "Resiliency Gardens works through locally led educational partners who know their communities, schools, teachers, and children.",
+      "secondText": "They transform garden infrastructure into meaningful learning experiences by working directly with teachers, children, youth, families, seniors, and community volunteers.",
+      "learnMore": "Learn more"
+    },
+    "modelCities": {
+      "title": "Model Cities: Helping Cities Grow Public School Garden Programs",
+      "text": "Resiliency Gardens helps cities bring schools, local educators, businesses, civic leaders, and community volunteers together around a shared goal: making garden-based environmental education accessible to more children. Our model city approach supports public school garden programs that can be adapted and replicated by other communities.",
+      "learnMore": "Learn more"
+    },
     "first": {
-      "title": "1. Start a school or community garden",
+      "title": "Start a school or community garden",
       "text": "Starting a school or community garden is a powerful way to bring people together, foster hands-on learning, and promote healthy living. These gardens serve as living classrooms that teach sustainable practices, connect individuals with nature, and inspire a sense of pride in growing and sharing fresh, nutritious food.",
       "firstItem": {
         "title": "Grant Opportunities",
@@ -32,7 +48,7 @@
       "donate": "Donate to support more schools"
     },
     "second": {
-      "title": "2. Start your own garden",
+      "title": "Start your own garden",
       "subtext": "Anyone can grow vegetables and everyone enjoys watching a seed they planted sprout and grow. Whether on a windowsill, a balcony or in a garden bed, we can all make a difference.",
       "firstText": "People who have access to their own vegetable garden consume 40% more fresh vegetables and herbs and, consequently, eat less junk food.",
       "secondText": "Vegetables and herbs lose 30-50% of their useful properties within 5-10 days. Local vegetable gardens allow you to eat vegetables and herbs immediately after harvesting.",
@@ -176,7 +192,7 @@
           "id": "about"
         },
         {
-          "text": "Our solutions",
+          "text": "Our work",
           "id": "solution"
         }
       ],

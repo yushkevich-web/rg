@@ -1,15 +1,13 @@
 {
   "fullScreen": {
-    "subtitleFirst": "Kultywowanie wytrwałości,",
-    "subtitleSecond": "jeden ogród na raz"
+    "subtitleFirst": "Siejemy ziarna innowacji,",
+    "subtitleSecond": "wytrwałości i nadziei"
   },
   "aboutSection": {
     "firstTitle": "O nas",
-    "firstText": "ResiliencyGardens.org to organizacja charytatywna zajmująca się edukacją przyszłych pokoleń poprzez inwestowanie w ogrody szkolne i społeczne, które reprezentują zrównoważone praktyki rolnicze, promują zdrowy tryb życia i wspierają zarządzanie środowiskiem.",
-    "secondTitle": "Nasz cel",
-    "secondText": "Tworzenie dynamicznych, praktycznych środowisk edukacyjnych, które pogłębiają nasze zrozumienie procesów ekologicznych, jednocześnie inspirując ludzi w każdym wieku do czerpania radości z uprawy i jedzenia własnej żywności.",
-    "thirdTitle": "Nasza wizja",
-    "thirdText": "Świat, w którym społeczności są wytrwałe, samowystarczalne i aktywnie zaangażowane w zrównoważone systemy żywnościowe, które sprzyjają dobremu samopoczuciu i przyczyniają się do zdrowia naszej planety."
+    "firstText": "Resiliency Gardens zasiewa ziarna odporności, inwestując w ogrody szkolne, naukę międzypokoleniową oraz lokalnie rozwijane partnerstwa, które pomagają dzieciom i młodzieży aktywnie uczestniczyć w zrównoważonych systemach żywnościowych, wzmacniać własny dobrostan i troszczyć się o zdrowie naszej planety.",
+    "secondTitle": "Dlaczego to ważne",
+    "secondText": "Pogarszający się stan środowiska naturalnego zagraża naszemu dobrostanowi i przyszłości dzisiejszej młodzieży. Wyposażając młodzież w umiejętności krytycznego myślenia, rozwiązywania problemów i odporność, przygotowujemy ją do stawiania czoła globalnym wyzwaniom i stania się odpowiedzialnymi obywatelami zaangażowanymi w zrównoważoną przyszłość."
   },
   "mattersSection": {
     "title": "Dlaczego to ważne",
@@ -17,9 +15,27 @@
     "secondText": "Wyposażając młodzież w umiejętności krytycznego myślenia, rozwiązywania problemów i wytrzymałości, przygotowujemy ich do stawienia czoła globalnym wyzwaniom i stania się odpowiedzialnymi obywatelami zaangażowanymi w zrównoważoną przyszłość."
   },
   "solutionSection": {
-    "title": "Nasze rozwiązania",
+    "title": "Nasza praca",
+    "description": "Resiliency Gardens rozpoczęło działalność w 2022 roku jako pełna współczucia odpowiedź na pilną potrzebę wsparcia ukraińskich dzieci uchodźczych integrujących się w polskich szkołach. To, co zaczęło się jako grupa indywidualnych dotacji na ogrody szkolne, rozwinęło się w partnerstwa na poziomie całych miast, lokalne sieci edukatorów oraz nowe modele nauki o środowisku i zrównoważonych systemach żywnościowych.",
+    "schoolGardens": {
+      "title": "Ogrody szkolne: tam, gdzie nasza praca zapuszcza korzenie",
+      "firstText": "Resiliency Gardens współpracuje ze szkołami, aby tworzyć plenerowe klasy i żywe laboratoria, w których uczniowie łączą się z jedzeniem, naturą, środowiskiem i sobą nawzajem.",
+      "secondText": "Poprzez praktyczne sadzenie, pielęgnowanie i zbieranie plonów młodzi ludzie odkrywają, jak rozwijają się zdrowe ekosystemy i społeczności, oraz zyskują głębsze poczucie własnej roli w kształtowaniu bardziej odpornego, zrównoważonego świata.",
+      "learnMore": "Dowiedz się więcej"
+    },
+    "educationalPartners": {
+      "title": "Partnerzy edukacyjni: lokalni liderzy, którzy ożywiają edukacyjne ogrodnictwo",
+      "firstText": "Resiliency Gardens działa poprzez lokalnie prowadzonych partnerów edukacyjnych, którzy znają swoje społeczności, szkoły, nauczycieli i dzieci.",
+      "secondText": "Przekształcają infrastrukturę ogrodową w wartościowe doświadczenia edukacyjne, pracując bezpośrednio z nauczycielami, dziećmi, młodzieżą, rodzinami, seniorami i wolontariuszami społecznościowymi.",
+      "learnMore": "Dowiedz się więcej"
+    },
+    "modelCities": {
+      "title": "Miasta modelowe: pomagamy miastom rozwijać programy ogrodów w szkołach publicznych",
+      "text": "Resiliency Gardens pomaga miastom łączyć szkoły, lokalnych edukatorów, firmy, liderów obywatelskich i wolontariuszy społecznościowych wokół wspólnego celu: udostępnienia edukacji środowiskowej opartej na ogrodach większej liczbie dzieci. Nasze podejście miasta modelowego wspiera programy ogrodów w szkołach publicznych, które mogą być dostosowywane i powielane przez inne społeczności.",
+      "learnMore": "Dowiedz się więcej"
+    },
     "first": {
-      "title": "1. Założenie ogrodu szkolnego lub społecznościowego",
+      "title": "Założenie ogrodu szkolnego lub społecznościowego",
       "text": "Założenie ogrodu szkolnego lub społecznego to skuteczny sposób na zjednoczenie ludzi, wspieranie praktycznej nauki i promowanie zdrowego stylu życia. Ogrody te służą jako żywa uczelnia, która uczy zrównoważonych praktyk, łączy ludzi z naturą i inspiruje poczucie dumy z uprawy i dzielenia się świeżym, pożywnym jedzeniem.",
       "firstItem": {
         "title": "Możliwości uzyskania dotacji",
@@ -32,7 +48,7 @@
       "donate": "Przekaż darowiznę, aby wesprzeć więcej szkół"
     },
     "second": {
-      "title": "2. Załóż własny ogród",
+      "title": "Załóż własny ogród",
       "subtext": "Każdy może uprawiać warzywa i każdy lubi patrzeć, jak zasiane przez niego nasiona kiełkują i rosną. Niezależnie od tego, czy chodzi o parapet, balkon czy grządkę w ogrodzie, wszyscy możemy coś zmienić.",
       "firstText": "Osoby, które mają dostęp do własnego ogródka warzywnego, spożywają o 40% więcej świeżych warzyw i ziół, a co za tym idzie, jedzą mniej przetworzonej żywności.",
       "secondText": "Warzywa i zioła tracą 30-50% swoich wartości odżywczych w ciągu 5-10 dni. Lokalne ogrody warzywne umożliwiają spożywanie warzyw i ziół bezpośrednio po zbiorach.",
@@ -177,7 +193,7 @@
           "id": "about"
         },
         {
-          "text": "Nasze rozwiązania",
+          "text": "Nasza praca",
           "id": "solution"
         }
       ],

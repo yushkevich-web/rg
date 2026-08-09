@@ -3,9 +3,8 @@
     <LocalSwitcher />
     <FullScreen id="main" />
     <About id="about" />
-    <Matters />
     <Solution id="solution" />
-    <Needs />
+    <Needs id="garden-needs" />
     <Start id="start" />
     <Points />
     <!-- <Impact id="impact" /> -->
@@ -24,7 +23,6 @@
 import LocalSwitcher from "./components/LocalSwitcher.vue";
 import About from "./components/About.vue";
 import FullScreen from "./components/FullScreen.vue";
-import Matters from "./components/Matters.vue";
 import Solution from "./components/Solution.vue";
 import Needs from "./components/Needs.vue";
 import Points from "./components/Points.vue";
@@ -43,7 +41,6 @@ export default {
     LocalSwitcher,
     FullScreen,
     About,
-    Matters,
     Solution,
     Needs,
     Start,

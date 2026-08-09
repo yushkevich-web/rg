@@ -2,6 +2,9 @@
   <div :class="$style.wrapper">
     <div :class="$style.container">
       <div :class="$style.points">
+        <div :class="$style.image">
+          <img src="/images/points/1.svg" alt="" />
+        </div>
         <div :class="$style.list">
           <div :class="$style.li">
             <div :class="$style.purple">
@@ -18,9 +21,6 @@
               {{ $t("solutionSection.second.thirdText") }}
             </div>
           </div>
-        </div>
-        <div :class="$style.image">
-          <img src="/images/points/1.svg" alt="" />
         </div>
       </div>
     </div>
@@ -50,13 +50,13 @@
         }
         .li {
           margin: 0 0 1.25rem 0;
-          @include F32-500;
-          @include custom(1100) {
-            font-size: 1.5rem;
+          @include F28-400;
+          @include custom(1200) {
+            font-size: 1.75rem;
             line-height: 120%;
           }
-          @include custom(870) {
-            font-size: 1.35rem;
+          @include custom(1050) {
+            font-size: 1.5rem;
           }
           @include custom(530) {
             font-size: 1.1rem;
@@ -82,11 +82,17 @@
         }
       }
       .image {
-        max-width: 50rem;
-        max-height: 50rem;
+        max-width: 32rem;
+        max-height: 32rem;
+        margin: 0 auto;
+        @include custom(1050) {
+          max-width: 26rem;
+          max-height: 26rem;
+        }
         & img {
           width: 100%;
-          height: 100%;
+          height: auto;
+          display: block;
         }
         @include tablet {
           order: 1;

@@ -21,6 +21,7 @@
 
 <style lang="scss" module>
 .container {
+  position: relative;
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -59,13 +60,23 @@
     }
   }
   .button {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
     @include F36-600;
     color: $white;
     text-align: center;
+    @include tablet {
+      right: 2rem;
+      bottom: 2rem;
+    }
     @include custom(405) {
+      right: 1.5rem;
+      bottom: 1.5rem;
       font-size: 1.5rem;
     }
     & a {
+      display: inline-block;
       padding: 1.5rem 3rem;
       background-color: $black;
       border-radius: 0.625rem;
