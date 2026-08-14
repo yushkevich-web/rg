@@ -82,12 +82,128 @@
       "color": "#4a9b52"
     }
   ],
+  "schoolGardensPage": {
+    "back": "Back",
+    "title": "Our Growing Network of School Gardens in Poland",
+    "stats": {
+      "schoolGardens": "school gardens supported",
+      "students": "students reached",
+      "refugeeStudents": "Ukrainian refugee students welcomed"
+    },
+    "description": "Explore the schools and communities in Poland participating in Resiliency Gardens. Use the filters to view beneficiaries by school, city, year funded or click a marker to learn more.",
+    "locatorPlaceholder": "CPS School Locator"
+  },
+  "educationalPartnersPage": {
+    "back": "Back",
+    "title": "Our Growing Network of Educational Partners",
+    "partners": {
+      "tripsBeyondClassroom": {
+        "name": "Trips Beyond the Classroom",
+        "description": "Helped launch Resiliency Gardens' first pilot Warsaw region during the 2022/23 academic year. By using nature as a shared language, Trips Beyond the Classroom helped children build practical gardening skills, resilience, teamwork, and community."
+      },
+      "fundacjaRozwoju": {
+        "name": "Fundacja Naturalnego Rozwoju",
+        "description": "Is the local educational partner supporting the Rybnik Model City school garden program through hands-on environmental education workshops, teacher support, and school-based learning activities focused on nature, food, and sustainability."
+      },
+      "ogrodZKlasa": {
+        "name": "Ogród z Klasą / Classy Garden",
+        "description": "Is the Kraków-based educational partner helping design the Resiliency Gardens Incubator, including a School Garden Starter Kit and teacher workshop model to help more schools launch practical garden-based learning."
+      },
+      "ogrodPodGwiazdami": {
+        "name": "Ogród Pod Gwiazdami / Under the Stars Garden",
+        "description": "Is a community garden partner in Kraków providing the demonstration site for the Resiliency Gardens Incubator, including a dedicated children's educational garden where the starter-kit model is being tested and refined."
+      }
+    },
+    "educators": {
+      "title": "Individual Garden Educators",
+      "intro": "In addition to our organizational partners, Resiliency Gardens works with individual garden educators who bring hands-on environmental education directly to schools. These educators design and lead workshops that help children learn by planting, observing, building, tasting, and caring for living gardens.",
+      "items": {
+        "bozena": {
+          "name": "Bożena Mrozek",
+          "school": "Przedszkole nr 3, Rybnik and Zespół Szkolno-Rewalidacyjny \"Szkoła Życia,\" Rybnik",
+          "year": "2026",
+          "description": "Leads the \"Green Bridge of Generations\" program, bringing children and seniors together through gardening, herbs, harvesting, natural health traditions, and seasonal crafts. Her workshops help children explore seeds, soil, plants, and food through sensory, hands-on activities while building relationships across generations and preserving local gardening and herbal traditions."
+        },
+        "anna": {
+          "name": "Anna Dulny-Szczodrak",
+          "school": "Szkoła Podstawowa Edujoy, Kaputy",
+          "year": "2023/24",
+          "description": "Led hands-on workshops helping students learn about seeds, soil, composting, plant care, and school garden stewardship, with a special focus on using CAD design."
+        },
+        "tomasz": {
+          "name": "Tomasz Kot",
+          "school": "Primary School No. 28, Rybnik",
+          "year": "2023/24",
+          "description": "Helped students create a biodiverse school garden with raised beds, herbs, vegetables, strawberries, a flower meadow, an insect-friendly bed, and a fruit tree. His workshops introduced students to plant growth, permaculture-inspired gardening, pollinators, healthy eating, and the importance of green spaces in cities."
+        },
+        "dagmara": {
+          "name": "Dagmara Wawrzyńczyk",
+          "school": "Zespół Szkół Budowlanych, Rybnik",
+          "year": "2023/24",
+          "description": "Led students in designing and creating a school garden that raised awareness about climate change, composting, biodiversity, pollinators, healthy eating, and growing food without artificial fertilizers. The project included site inventory and design work, planting vegetables, fruits, flowers, and ornamental plants, and creating a green space for learning, recreation, and community use."
+        }
+      }
+    }
+  },
+  "modelCitiesPage": {
+    "back": "Back",
+    "rybnik": {
+      "title": "Rybnik: A Model City for School Gardens and Social Cohesion",
+      "description": "In partnership with the City of Rybnik, Resiliency Gardens helped establish a model city program that has supported 23 school gardens across the city and demonstrated how public schools, local government, NGOs, businesses, and community leaders can work together to connect children with nature, food, and environmental stewardship. Building on the success of the Resiliency Gardens model, Rybnik began funding an additional six schools on its own in 2026 through its “Towards a Green Future” initiative, further expanding access to garden-based environmental education across the city.",
+      "impactTitle": "Rybnik Impact Highlights",
+      "highlights": {
+        "schools": "schools supported",
+        "students": "students reached",
+        "refugeeStudents": "Ukrainian refugee students welcomed",
+        "workshops": "workshops delivered",
+        "awards": "innovation awards"
+      },
+      "awards": {
+        "euInnovation": {
+          "title": "2025 EU Innovation in Politics Award",
+          "description": "Winner, Social Cohesion & Integration category."
+        },
+        "localGovernment": {
+          "title": "2024 Innovative Local Government Award",
+          "description": "Recognition from the Polish Press Agency for Rybnik’s leadership in the Resiliency Gardens project."
+        }
+      },
+      "sponsorsTitle": "Local sponsors and supporters"
+    },
+    "krakow": {
+      "title": "Kraków: Incubating the Next Generation of School Garden Innovation",
+      "description": "The Resiliency Gardens Incubator in Kraków is designed to help educators, community gardeners, and schools test and share practical approaches to garden-based environmental education. The project will develop a children’s educational demonstration garden, a School Garden Starter Kit, and teacher workshops that can help more schools integrate food, nature, and sustainability into learning.",
+      "highlightsTitle": "Kraków Incubator Highlights",
+      "highlights": {
+        "partners": {
+          "label": "Partners:",
+          "text": "Ogród z Klasą, and Ogród Pod Gwiazdami"
+        },
+        "demonstrationSite": {
+          "label": "Demonstration site:",
+          "text": "50 m² children’s educational garden"
+        },
+        "tools": {
+          "label": "Tools:",
+          "text": "School Garden Starter Kit"
+        },
+        "training": {
+          "label": "Training:",
+          "text": "Teacher workshop series"
+        },
+        "purpose": {
+          "label": "Purpose:",
+          "text": "Help schools start and sustain garden-based environmental education programs"
+        }
+      }
+    }
+  },
   "sliderSection": {
     "title": "What you need",
     "text": "There are many ways to garden: in-ground garden beds, raised rows, raised garden beds, straw bales, and container gardens"
   },
   "developmentSection": {
-    "title": "Gardening helps a child’s development",
+    "title": "Learning resources and activities",
     "cards": [
       {
         "title": "Sensory development",
@@ -130,8 +246,9 @@
     ]
   },
   "partnersSection": {
-    "title": "Our Partners",
-    "subtext": "A heartfelt thanks to our partners for their dedication and contributions to the Resiliency Garden’s School and Community Gardens program",
+    "title": "Our Community of Support",
+    "subtext": "Resiliency Gardens has grown because people and organizations believed that children deserve the chance to learn from nature, grow food, care for the planet, and build healthier, more resilient communities. Our supporters include individual donors, foundations, local businesses, city partners, and friends who have helped plant the seeds of this work from the very beginning.",
+    "subheading": "Foundations and Institutional Supporters",
     "cards": [
       {
         "image": "/images/partners/4.png",
@@ -143,22 +260,18 @@
         "text": "Rybnik, in southern Poland, leads in sustainable food practices. Through the StratKIT+ project, Rybnik has matched 10% of Resiliency Gardens grants, improving school garden infrastructure. Since 2024, 4,562 students from eleven schools are participating in gardening, enhancing community engagement and integrating sustainable food systems into education."
       },
       {
-        "image": "/images/partners/2.png",
-        "text": "Fundacja Naturalnego Rozwoju is dedicated to the holistic development of children and youth, with a special emphasis on ecological education and fostering connections with nature."
-      },
-      {
         "image": "/images/partners/3.png",
         "text": "KidsGardening.org creates opportunities for kids to play, learn, and grow through gardening. KG’s in-kind donation of Learning Tools for educators, parents and child caregivers are now available in Polish and Ukrainian."
       },
       {
-        "type": "vertical",
-        "image": "/images/partners/5.png",
-        "text": "Trips Beyond the Classroom offers Innovative Education that creates lifetime and generational impact by inspiring future leaders. A special Beyond the Garden program supported five educational institutions in creating young environmental stewards through gardening."
+        "name": "Rachel E. Golden Foundation",
+        "logoPlaceholder": "logo",
+        "text": "The Rachel E. Golden Foundation supports small, original, and innovative changemakers working to build a more humane, healthy, and hopeful world. Rooted in Rachel Golden’s belief in the healing and connective power of nature, the Foundation invests in practical, creative, early-stage initiatives that strengthen communities, restore connection, and grow lasting sources of resilience and hope."
       },
       {
-        "text": "Join us in growing a healththier, more sustainable future",
-        "link": "Become a Corporate Sponsor",
-        "file": "/files/Corporate_appeal-en.pdf"
+        "name": "Grupa Robocza Foundation",
+        "logoPlaceholder": "logo",
+        "text": "Grupa Robocza Foundation is a Kraków-based foundation dedicated to innovative design education and interdisciplinary collaboration. With a planet-centered approach to technology and experimentation, Grupa Robocza creates space for people from different fields to develop practical and imaginative solutions. By providing local matching support for the Resiliency Gardens Incubator in Kraków, the Foundation is helping educators and community partners grow new models for outdoor learning, environmental education, and resilient food systems."
       }
     ]
   },

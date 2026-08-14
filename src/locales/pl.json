@@ -82,12 +82,128 @@
       "color": "#4a9b52"
     }
   ],
+  "schoolGardensPage": {
+    "back": "Wstecz",
+    "title": "Nasza rosnąca sieć ogrodów szkolnych w Polsce",
+    "stats": {
+      "schoolGardens": "wspieranych ogrodów szkolnych",
+      "students": "uczniów objętych programem",
+      "refugeeStudents": "przyjętych ukraińskich uczniów uchodźczych"
+    },
+    "description": "Poznaj szkoły i społeczności w Polsce uczestniczące w Resiliency Gardens. Użyj filtrów, aby przeglądać beneficjentów według szkoły, miasta lub roku finansowania, albo kliknij znacznik, aby dowiedzieć się więcej.",
+    "locatorPlaceholder": "CPS School Locator"
+  },
+  "educationalPartnersPage": {
+    "back": "Wstecz",
+    "title": "Nasza rosnąca sieć partnerów edukacyjnych",
+    "partners": {
+      "tripsBeyondClassroom": {
+        "name": "Trips Beyond the Classroom",
+        "description": "Pomogli uruchomić pierwszy pilotaż Resiliency Gardens w regionie warszawskim w roku szkolnym 2022/23. Wykorzystując naturę jako wspólny język, Trips Beyond the Classroom pomogło dzieciom rozwijać praktyczne umiejętności ogrodnicze, odporność, pracę zespołową i poczucie wspólnoty."
+      },
+      "fundacjaRozwoju": {
+        "name": "Fundacja Naturalnego Rozwoju",
+        "description": "Jest lokalnym partnerem edukacyjnym wspierającym program ogrodów szkolnych Rybnik Model City poprzez praktyczne warsztaty edukacji środowiskowej, wsparcie nauczycieli oraz szkolne działania edukacyjne skupione na naturze, jedzeniu i zrównoważonym rozwoju."
+      },
+      "ogrodZKlasa": {
+        "name": "Ogród z Klasą / Classy Garden",
+        "description": "Jest krakowskim partnerem edukacyjnym pomagającym projektować Resiliency Gardens Incubator, w tym School Garden Starter Kit oraz model warsztatów dla nauczycieli, który pomaga większej liczbie szkół uruchamiać praktyczną naukę opartą na ogrodzie."
+      },
+      "ogrodPodGwiazdami": {
+        "name": "Ogród Pod Gwiazdami / Under the Stars Garden",
+        "description": "Jest partnerem ogrodu społecznościowego w Krakowie, zapewniającym miejsce demonstracyjne dla Resiliency Gardens Incubator, w tym dedykowany dziecięcy ogród edukacyjny, w którym model starter kit jest testowany i udoskonalany."
+      }
+    },
+    "educators": {
+      "title": "Indywidualni edukatorzy ogrodowi",
+      "intro": "Oprócz partnerów organizacyjnych Resiliency Gardens współpracuje z indywidualnymi edukatorami ogrodowymi, którzy prowadzą praktyczną edukację środowiskową bezpośrednio w szkołach. Edukatorzy projektują i prowadzą warsztaty, które pomagają dzieciom uczyć się poprzez sadzenie, obserwowanie, budowanie, smakowanie i opiekę nad żywymi ogrodami.",
+      "items": {
+        "bozena": {
+          "name": "Bożena Mrozek",
+          "school": "Przedszkole nr 3, Rybnik oraz Zespół Szkolno-Rewalidacyjny \"Szkoła Życia,\" Rybnik",
+          "year": "2026",
+          "description": "Prowadzi program \"Zielony Most Pokoleń\", łączący dzieci i seniorów poprzez ogrodnictwo, zioła, zbiory, naturalne tradycje zdrowotne i sezonowe rękodzieło. Jej warsztaty pomagają dzieciom poznawać nasiona, glebę, rośliny i jedzenie poprzez sensoryczne, praktyczne działania, jednocześnie budując relacje międzypokoleniowe i chroniąc lokalne tradycje ogrodnicze oraz zielarskie."
+        },
+        "anna": {
+          "name": "Anna Dulny-Szczodrak",
+          "school": "Szkoła Podstawowa Edujoy, Kaputy",
+          "year": "2023/24",
+          "description": "Prowadziła praktyczne warsztaty pomagające uczniom poznawać nasiona, glebę, kompostowanie, pielęgnację roślin i opiekę nad ogrodem szkolnym, ze szczególnym naciskiem na wykorzystanie projektowania CAD."
+        },
+        "tomasz": {
+          "name": "Tomasz Kot",
+          "school": "Szkoła Podstawowa nr 28, Rybnik",
+          "year": "2023/24",
+          "description": "Pomógł uczniom stworzyć bioróżnorodny ogród szkolny z podniesionymi grządkami, ziołami, warzywami, truskawkami, łąką kwietną, rabatą przyjazną owadom i drzewem owocowym. Jego warsztaty wprowadzały uczniów w temat wzrostu roślin, ogrodnictwa inspirowanego permakulturą, zapylaczy, zdrowego odżywiania i znaczenia terenów zielonych w miastach."
+        },
+        "dagmara": {
+          "name": "Dagmara Wawrzyńczyk",
+          "school": "Zespół Szkół Budowlanych, Rybnik",
+          "year": "2023/24",
+          "description": "Prowadziła uczniów w projektowaniu i tworzeniu ogrodu szkolnego, który zwiększał świadomość na temat zmian klimatu, kompostowania, bioróżnorodności, zapylaczy, zdrowego odżywiania i uprawy żywności bez sztucznych nawozów. Projekt obejmował inwentaryzację i prace projektowe, sadzenie warzyw, owoców, kwiatów i roślin ozdobnych oraz tworzenie zielonej przestrzeni do nauki, rekreacji i użytku społeczności."
+        }
+      }
+    }
+  },
+  "modelCitiesPage": {
+    "back": "Wstecz",
+    "rybnik": {
+      "title": "Rybnik: miasto modelowe dla ogrodów szkolnych i spójności społecznej",
+      "description": "We współpracy z Miastem Rybnik Resiliency Gardens pomogło stworzyć program miasta modelowego, który wsparł 23 ogrody szkolne w całym mieście i pokazał, jak szkoły publiczne, samorząd lokalny, organizacje pozarządowe, firmy i liderzy społeczności mogą współpracować, aby łączyć dzieci z naturą, jedzeniem i troską o środowisko. Opierając się na sukcesie modelu Resiliency Gardens, Rybnik zaczął w 2026 roku samodzielnie finansować kolejne sześć szkół w ramach inicjatywy „W stronę zielonej przyszłości”, dalej rozszerzając dostęp do edukacji środowiskowej opartej na ogrodach w całym mieście.",
+      "impactTitle": "Najważniejsze efekty w Rybniku",
+      "highlights": {
+        "schools": "wspierane szkoły",
+        "students": "uczniów objętych programem",
+        "refugeeStudents": "przyjętych ukraińskich uczniów uchodźczych",
+        "workshops": "przeprowadzonych warsztatów",
+        "awards": "nagrody za innowacje"
+      },
+      "awards": {
+        "euInnovation": {
+          "title": "2025 EU Innovation in Politics Award",
+          "description": "Zwycięzca w kategorii Social Cohesion & Integration."
+        },
+        "localGovernment": {
+          "title": "2024 Innovative Local Government Award",
+          "description": "Wyróżnienie Polskiej Agencji Prasowej za przywództwo Rybnika w projekcie Resiliency Gardens."
+        }
+      },
+      "sponsorsTitle": "Lokalni sponsorzy i wspierający"
+    },
+    "krakow": {
+      "title": "Kraków: inkubowanie kolejnej generacji innowacji w ogrodach szkolnych",
+      "description": "Resiliency Gardens Incubator w Krakowie został zaprojektowany, aby pomóc edukatorom, ogrodnikom społecznym i szkołom testować oraz dzielić się praktycznymi podejściami do edukacji środowiskowej opartej na ogrodzie. Projekt rozwinie dziecięcy edukacyjny ogród demonstracyjny, School Garden Starter Kit oraz warsztaty dla nauczycieli, które pomogą większej liczbie szkół włączać jedzenie, naturę i zrównoważony rozwój do nauki.",
+      "highlightsTitle": "Najważniejsze elementy Kraków Incubator",
+      "highlights": {
+        "partners": {
+          "label": "Partnerzy:",
+          "text": "Ogród z Klasą oraz Ogród Pod Gwiazdami"
+        },
+        "demonstrationSite": {
+          "label": "Miejsce demonstracyjne:",
+          "text": "50 m² dziecięcego ogrodu edukacyjnego"
+        },
+        "tools": {
+          "label": "Narzędzia:",
+          "text": "School Garden Starter Kit"
+        },
+        "training": {
+          "label": "Szkolenie:",
+          "text": "cykl warsztatów dla nauczycieli"
+        },
+        "purpose": {
+          "label": "Cel:",
+          "text": "pomóc szkołom rozpoczynać i utrzymywać programy edukacji środowiskowej opartej na ogrodach"
+        }
+      }
+    }
+  },
   "sliderSection": {
     "title": "Czego potrzebujesz",
     "text": "Ogród można uprawiać na wiele sposobów: w gruncie, w podniesionych rzędach, w podniesionych grządkach, w belach słomy i w pojemnikach"
   },
   "developmentSection": {
-    "title": "Ogrodnictwo wspomaga rozwój dziecka",
+    "title": "Materiały edukacyjne i zajęcia",
     "cards": [
       {
         "title": "Rozwój sensoryczny",
@@ -130,10 +246,10 @@
     ]
   },
   "partnersSection": {
-    "title": "Nasi partnerzy",
-    "subtext": "Serdeczne podziękowania dla naszych partnerów za ich zaangażowanie i wkład w program Ogrodów Szkolnych i Społecznych Resiliency Garden.",
+    "title": "Nasza społeczność wsparcia",
+    "subtext": "Resiliency Gardens rozwija się dzięki ludziom i organizacjom, które wierzą, że dzieci zasługują na możliwość uczenia się od natury, uprawiania żywności, troski o planetę oraz budowania zdrowszych i bardziej odpornych społeczności. Wśród naszych wspierających są indywidualni darczyńcy, fundacje, lokalne firmy, partnerzy miejscy i przyjaciele, którzy od samego początku pomagali zasiewać ziarna tej pracy.",
+    "subheading": "Fundacje i partnerzy instytucjonalni",
     "cards": [
-      
       {
         "image": "/images/partners/4.png",
         "text": "Seed Programs International dostarcza dobrej jakości nasiona, wiedzę i materiały szkoleniowe organizacjom humanitarnym działającym na całym świecie w celu złagodzenia głodu i ubóstwa. Dotacje rzeczowe SPI pomogły 27 szkołom w Polsce założyć Resiliency Gardens do nauki i dzielenia się."
@@ -144,22 +260,18 @@
         "text": "Rybnik, w południowej Polsce, jest liderem w zakresie zrównoważonych praktyk żywieniowych. W ramach projektu StratKIT+ Rybnik dopasował 10% dotacji Resiliency Gardens, ulepszając infrastrukturę szkolnych ogrodów. Od 2024 r. 4562 uczniów z jedenastu szkół uczestniczy w ogrodnictwie, zwiększając zaangażowanie społeczności i integrując zrównoważone systemy żywnościowe z edukacją."
       },
       {
-        "image": "/images/partners/2.png",
-        "text": "Fundacja Naturalnego Rozwoju zajmuje się holistycznym rozwojem dzieci i młodzieży, ze szczególnym naciskiem na edukację ekologiczną i budowanie więzi z naturą."
-      },
-      {
         "image": "/images/partners/3.png",
         "text": "KidsGardening.org stwarza dzieciom możliwości zabawy, nauki i rozwoju poprzez ogrodnictwo,. Przekazane przez KG narzędzia edukacyjne dla nauczycieli, rodziców i opiekunów dzieci są teraz dostępne w języku polskim i ukraińskim."
       },
       {
-        "type": "vertical",
-        "image": "/images/partners/5.png",
-        "text": "Trips Beyond the Classroom oferuje innowacyjną edukację, która wywiera wpływ na całe życie i pokolenia, podnosząc globalną świadomość wśród młodzieży i inspirując przyszłych liderów. Specjalny program Beyond the Garden wspierał pięć instytucji edukacyjnych w tworzeniu młodych strażników środowiska poprzez ogrodnictwo."
+        "name": "Rachel E. Golden Foundation",
+        "logoPlaceholder": "logo",
+        "text": "Rachel E. Golden Foundation wspiera małych, oryginalnych i innowacyjnych twórców zmian, którzy pracują na rzecz bardziej humanitarnego, zdrowego i pełnego nadziei świata. Zakorzeniona w przekonaniu Rachel Golden o uzdrawiającej i łączącej sile natury, Fundacja inwestuje w praktyczne, kreatywne inicjatywy na wczesnym etapie, które wzmacniają społeczności, odbudowują więzi oraz rozwijają trwałe źródła odporności i nadziei."
       },
       {
-        "text": "Dołącz do nas w tworzeniu zdrowszej i bardziej zrównoważonej przyszłości!",
-        "link": "Zostać sponsorem korporacyjnym",
-        "file": "/files/Corporate_appeal-pl.pdf"
+        "name": "Grupa Robocza Foundation",
+        "logoPlaceholder": "logo",
+        "text": "Grupa Robocza Foundation to krakowska fundacja zajmująca się innowacyjną edukacją projektową i interdyscyplinarną współpracą. Dzięki podejściu do technologii i eksperymentowania skoncentrowanemu na planecie, Grupa Robocza tworzy przestrzeń dla osób z różnych dziedzin do rozwijania praktycznych i twórczych rozwiązań. Zapewniając lokalne wsparcie matchingowe dla Resiliency Gardens Incubator w Krakowie, Fundacja pomaga edukatorom i partnerom społecznym rozwijać nowe modele nauki na świeżym powietrzu, edukacji środowiskowej i odpornych systemów żywnościowych."
       }
     ]
   },

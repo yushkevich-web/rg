@@ -5,7 +5,7 @@
       {{ $t("solutionSection.description") }}
     </div>
     <div :class="$style.schoolGardensBlock">
-      <div :class="$style.placeholder">picture/slider</div>
+      <div :class="$style.placeholder">placeholder</div>
       <div :class="$style.featureText">
         <div :class="$style.subtitle">
           {{ $t("solutionSection.schoolGardens.title") }}
@@ -14,7 +14,7 @@
           <p>{{ $t("solutionSection.schoolGardens.firstText") }}</p>
           <p>{{ $t("solutionSection.schoolGardens.secondText") }}</p>
         </div>
-        <button :class="$style.button" @click="scrollTo('#winners')">
+        <button :class="$style.button" @click="openSchoolGardensPage">
           {{ $t("solutionSection.schoolGardens.learnMore") }}
         </button>
       </div>
@@ -28,14 +28,14 @@
           <p>{{ $t("solutionSection.educationalPartners.firstText") }}</p>
           <p>{{ $t("solutionSection.educationalPartners.secondText") }}</p>
         </div>
-        <button :class="$style.button" @click="scrollTo('#partners')">
+        <button :class="$style.button" @click="openEducationalPartnersPage">
           {{ $t("solutionSection.educationalPartners.learnMore") }}
         </button>
       </div>
-      <div :class="$style.placeholder">picture/slider</div>
+      <div :class="$style.placeholder">placeholder</div>
     </div>
     <div :class="$style.schoolGardensBlock">
-      <div :class="$style.placeholder">picture/slider</div>
+      <div :class="$style.placeholder">placeholder</div>
       <div :class="$style.featureText">
         <div :class="$style.subtitle">
           {{ $t("solutionSection.modelCities.title") }}
@@ -43,7 +43,7 @@
         <div :class="$style.text">
           <p>{{ $t("solutionSection.modelCities.text") }}</p>
         </div>
-        <button :class="$style.button" @click="scrollTo('#start')">
+        <button :class="$style.button" @click="openModelCitiesPage">
           {{ $t("solutionSection.modelCities.learnMore") }}
         </button>
       </div>
@@ -73,37 +73,25 @@
           </div>
         </div>
       </div>
-
-      <div :class="[$style.workBlock, $style.reverse]">
-        <div :class="$style.item">
-          <div :class="$style.subtitle">
-            {{ $t("solutionSection.second.title") }}
-          </div>
-          <div :class="$style.text">
-            {{ $t("solutionSection.second.subtext") }}
-          </div>
-        </div>
-        <div :class="$style.image">
-          <img src="/images/solution/1-horizontal.png" alt="" />
-        </div>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Applicate from "./Applicate.vue";
-import VueScrollTo from "vue-scrollto";
 export default {
   components: {
     Applicate,
   },
   methods: {
-    scrollTo(component) {
-      VueScrollTo.scrollTo(component, {
-        offset: -50,
-        duration: 500,
-      });
+    openSchoolGardensPage() {
+      window.location.hash = "#/school-gardens";
+    },
+    openEducationalPartnersPage() {
+      window.location.hash = "#/educational-partners";
+    },
+    openModelCitiesPage() {
+      window.location.hash = "#/model-cities";
     },
   },
 };

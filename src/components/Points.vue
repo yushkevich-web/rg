@@ -15,7 +15,6 @@
         </div>
       </div>
     </div>
-    <Slider />
     <!-- <div :class="$style.container">
       <div :class="$style.points">
         <div :class="$style.list">
@@ -51,13 +50,9 @@
 </template>
 
 <script>
-import Slider from "./Slider.vue";
 import dataEn from "../locales/en.json";
 import dataPl from "../locales/pl.json";
 export default {
-  components: {
-    Slider,
-  },
   data() {
     return {
       dataEn: dataEn.pointsSection,
