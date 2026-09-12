@@ -1,20 +1,11 @@
 <template>
-  <div :class="$style.swither">
-    <button
-      @click="changeLanguage('en')"
-      v-if="$i18n.locale === 'pl'"
-      :class="$style.button"
-    >
-      EN
-    </button>
-    <button
-      @click="changeLanguage('pl')"
-      v-if="$i18n.locale === 'en'"
-      :class="$style.button"
-    >
-      PL
-    </button>
-  </div>
+  <button
+    :class="$style.button"
+    type="button"
+    @click="changeLanguage($i18n.locale === 'en' ? 'pl' : 'en')"
+  >
+    {{ $i18n.locale === "en" ? "PL" : "EN" }}
+  </button>
 </template>
 
 <script>
@@ -28,37 +19,40 @@ export default {
 </script>
 
 <style lang="scss" module>
-.swither {
+.button {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  width: auto;
-  padding: 1rem 2rem;
-  background-color: #f5ebdd; // Чуть прозрачный фон для легкости
-  border-radius: 10px;
-  border: 3px solid #353535;
-  z-index: 100;
-  display: flex;
+  z-index: 101;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s ease-in-out;
-
-  &:hover {
-    background-color: #dad0c2;
-  }
-}
-
-.button {
-  font-size: 1.5rem;
-  color: #353535;
-  background: transparent;
+  min-width: 4.5rem;
+  padding: 0.875rem 1.5rem;
   border: none;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0.25rem 1.25rem rgba(53, 53, 53, 0.08);
+  color: $black;
   cursor: pointer;
+  @include F28-600;
+  font-size: 1.25rem;
+  line-height: 120%;
   text-transform: uppercase;
-  outline: none;
-
-  &:focus {
-    outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+  &:hover {
+    background-color: $orange;
+    color: $white;
+    box-shadow: 0 0.5rem 1.5rem rgba(255, 114, 53, 0.25);
+    transform: translateY(-1px);
+  }
+  @include custom(530) {
+    top: 2rem;
+    right: 1rem;
+    min-width: 3.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
   }
 }
 </style>

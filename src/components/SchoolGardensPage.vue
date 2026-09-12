@@ -29,14 +29,7 @@
             </div>
           </div>
         </div>
-        <p :class="$style.description">
-          {{ $t("schoolGardensPage.description") }}
-        </p>
       </div>
-    </section>
-
-    <section :class="$style.locator">
-      {{ $t("schoolGardensPage.locatorPlaceholder") }}
     </section>
   </main>
 </template>
@@ -76,6 +69,12 @@ export default {
   position: relative;
   padding: 8rem 1rem 6rem 1rem;
   background-color: $light-brown;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(245, 235, 221, 0) 40%,
+    rgba(160, 196, 198, 0.12) 100%
+  );
   color: $black;
   @include custom(530) {
     padding-top: 7rem;
@@ -91,34 +90,33 @@ export default {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem 1.5rem;
-  border: 0.1875rem solid $black;
-  border-radius: 0.625rem;
-  background-color: $white;
+  padding: 0.875rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0.25rem 1.25rem rgba(53, 53, 53, 0.08);
   color: $black;
   cursor: pointer;
   @include F28-600;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 120%;
-  transition: all 0.3s ease-in-out;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
   &:hover {
-    background-color: $black;
+    background-color: $orange;
     color: $white;
+    box-shadow: 0 0.5rem 1.5rem rgba(255, 114, 53, 0.25);
+    transform: translateY(-1px);
   }
   @include custom(530) {
     left: 1rem;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.25rem;
     font-size: 1rem;
   }
 }
 
-.hero,
-.locator {
-  @include container;
-}
-
 .hero {
-  margin-bottom: 5rem;
+  @include container;
 }
 
 .content {
@@ -143,67 +141,73 @@ export default {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  margin-bottom: 3rem;
   @include custom(760) {
     grid-template-columns: 1fr;
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .stat {
-  padding: 2rem 1.5rem;
-  border-radius: 0.625rem;
-  background-color: $white;
-  border: 0.1875rem solid $black;
+  position: relative;
+  padding: 2.25rem 1.5rem;
+  border-radius: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 0.5rem 2rem rgba(53, 53, 53, 0.06);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.75rem 2.5rem rgba(53, 53, 53, 0.1);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.375rem;
+    border-radius: 1.25rem 1.25rem 0 0;
+  }
+  &:nth-child(1)::before {
+    background: linear-gradient(90deg, $orange, lighten($orange, 12%));
+  }
+  &:nth-child(2)::before {
+    background: linear-gradient(90deg, $yellow, lighten($yellow, 10%));
+  }
+  &:nth-child(3)::before {
+    background: linear-gradient(90deg, $light-blue, lighten($light-blue, 10%));
+  }
 }
 
 .number {
   @include F64-900;
-  color: $orange;
   margin-bottom: 0.75rem;
   @include custom(1050) {
     font-size: 3rem;
     line-height: 100%;
   }
+  .stat:nth-child(1) & {
+    color: $orange;
+  }
+  .stat:nth-child(2) & {
+    color: darken($yellow, 18%);
+  }
+  .stat:nth-child(3) & {
+    color: $light-blue;
+  }
 }
 
 .label {
   @include F28-600;
-  line-height: 120%;
+  line-height: 130%;
+  color: rgba(53, 53, 53, 0.85);
   @include custom(1050) {
     font-size: 1.4rem;
   }
   @include custom(530) {
     font-size: 1.1rem;
-  }
-}
-
-.description {
-  @include F28-400;
-  max-width: 62rem;
-  margin: 0 auto;
-  @include custom(1050) {
-    font-size: 1.5rem;
-    line-height: 120%;
-  }
-  @include custom(530) {
-    font-size: 1.1rem;
-  }
-}
-
-.locator {
-  min-height: 24rem;
-  border: 0.1875rem dashed $black;
-  border-radius: 0.625rem;
-  background-color: #d9d9d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  @include F36-600;
-  color: $black;
-  @include custom(530) {
-    min-height: 18rem;
-    font-size: 1.5rem;
   }
 }
 </style>

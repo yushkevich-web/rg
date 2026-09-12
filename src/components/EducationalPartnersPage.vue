@@ -14,7 +14,7 @@
           :key="partner.key"
           :class="$style.partnerCard"
         >
-          <div :class="$style.logo">
+          <div :class="[$style.logo, { [$style.logoDark]: partner.darkLogo }]">
             <img
               :src="partner.logo"
               :alt="$t(`educationalPartnersPage.partners.${partner.key}.name`)"
@@ -86,6 +86,7 @@ export default {
         {
           key: "tripsBeyondClassroom",
           logo: "/images/partner-logos/beyondClassrooms.png",
+          darkLogo: true,
         },
         {
           key: "fundacjaRozwoju",
@@ -131,6 +132,12 @@ export default {
   position: relative;
   padding: 8rem 1rem 6rem 1rem;
   background-color: $light-brown;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(245, 235, 221, 0) 40%,
+    rgba(160, 196, 198, 0.12) 100%
+  );
   color: $black;
   @include custom(530) {
     padding-top: 7rem;
@@ -146,23 +153,27 @@ export default {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem 1.5rem;
-  border: 0.1875rem solid $black;
-  border-radius: 0.625rem;
-  background-color: $white;
+  padding: 0.875rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0.25rem 1.25rem rgba(53, 53, 53, 0.08);
   color: $black;
   cursor: pointer;
   @include F28-600;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 120%;
-  transition: all 0.3s ease-in-out;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
   &:hover {
-    background-color: $black;
+    background-color: $orange;
     color: $white;
+    box-shadow: 0 0.5rem 1.5rem rgba(255, 114, 53, 0.25);
+    transform: translateY(-1px);
   }
   @include custom(530) {
     left: 1rem;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.25rem;
     font-size: 1rem;
   }
 }
@@ -178,7 +189,7 @@ export default {
 .title {
   @include F64-900;
   max-width: 64rem;
-  margin: 0 auto 4rem auto;
+  margin: 0 auto 3.5rem auto;
   text-align: center;
   @include custom(830) {
     font-size: 3rem;
@@ -204,15 +215,20 @@ export default {
 
 .intro {
   @include F28-400;
-  max-width: 72rem;
+  max-width: 58rem;
   margin: 0 auto 3rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 0.25rem 1.5rem rgba(53, 53, 53, 0.05);
   text-align: center;
+  line-height: 150%;
   @include custom(1050) {
     font-size: 1.5rem;
-    line-height: 120%;
   }
   @include custom(530) {
     font-size: 1.1rem;
+    padding: 1.5rem;
   }
 }
 
@@ -228,9 +244,14 @@ export default {
 
 .partnerCard,
 .educatorCard {
-  border: 0.1875rem solid $black;
-  border-radius: 0.625rem;
-  background-color: $white;
+  border-radius: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 0.5rem 2rem rgba(53, 53, 53, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.75rem 2.5rem rgba(53, 53, 53, 0.1);
+  }
 }
 
 .partnerCard {
@@ -238,23 +259,24 @@ export default {
   grid-template-columns: 12rem minmax(0, 1fr);
   gap: 1.5rem;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.75rem;
   @include custom(1050) {
     grid-template-columns: 9rem minmax(0, 1fr);
   }
   @include custom(530) {
     grid-template-columns: 1fr;
+    padding: 1.5rem;
   }
 }
 
 .logo {
   min-height: 10rem;
-  border-radius: 0.625rem;
-  background-color: $light-brown;
+  border-radius: 1rem;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.25rem;
   & img {
     max-width: 100%;
     max-height: 8rem;
@@ -263,35 +285,47 @@ export default {
   }
 }
 
+.logoDark {
+  background-color: #a08970;
+  padding: 1.5rem;
+  & img {
+    max-height: 7rem;
+  }
+}
+
 .educatorCard {
   padding: 2rem;
+  @include custom(530) {
+    padding: 1.5rem;
+  }
 }
 
 .year {
   @include F28-600;
   display: inline-block;
   margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.125rem;
   border-radius: 999px;
   background-color: $orange;
   color: $white;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 120%;
+  box-shadow: 0 0.25rem 0.75rem rgba(255, 114, 53, 0.25);
 }
 
 .cardTitle {
   @include F32-600;
   margin: 0 0 1rem 0;
+  line-height: 130%;
   @include custom(530) {
     font-size: 1.5rem;
-    line-height: 120%;
   }
 }
 
 .school {
   @include F28-600;
   margin-bottom: 1rem;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 140%;
   color: $green;
   @include custom(530) {
@@ -301,11 +335,12 @@ export default {
 
 .text {
   @include F28-400;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 150%;
+  color: rgba(53, 53, 53, 0.9);
   @include custom(530) {
     font-size: 1.1rem;
-    line-height: 120%;
+    line-height: 130%;
   }
 }
 </style>
