@@ -15,6 +15,7 @@
       <Development id="development" />
       <Activities id="resources" />
       <Partners id="partners" />
+      <DonateCta />
       <Contacts />
       <Footer />
     </template>
@@ -33,6 +34,7 @@ import BrownCards from "./components/BrownCards.vue";
 import Development from "./components/Development.vue";
 import Activities from "./components/Activities.vue";
 import Partners from "./components/Partners.vue";
+import DonateCta from "./components/DonateCta.vue";
 import Contacts from "./components/Contacts.vue";
 import Footer from "./components/Footer.vue";
 import SchoolGardensPage from "./components/SchoolGardensPage.vue";
@@ -51,6 +53,7 @@ export default {
     Development,
     Activities,
     Partners,
+    DonateCta,
     Contacts,
     Footer,
     SchoolGardensPage,

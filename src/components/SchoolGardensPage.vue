@@ -182,7 +182,10 @@ export default {
 }
 
 .number {
-  @include F64-900;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.5rem;
   margin-bottom: 0.75rem;
   @include custom(1050) {
     font-size: 3rem;

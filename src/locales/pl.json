@@ -265,15 +265,35 @@
       },
       {
         "name": "Rachel E. Golden Foundation",
-        "logoPlaceholder": "logo",
         "text": "Rachel E. Golden Foundation wspiera małych, oryginalnych i innowacyjnych twórców zmian, którzy pracują na rzecz bardziej humanitarnego, zdrowego i pełnego nadziei świata. Zakorzeniona w przekonaniu Rachel Golden o uzdrawiającej i łączącej sile natury, Fundacja inwestuje w praktyczne, kreatywne inicjatywy na wczesnym etapie, które wzmacniają społeczności, odbudowują więzi oraz rozwijają trwałe źródła odporności i nadziei."
       },
       {
-        "name": "Grupa Robocza Foundation",
-        "logoPlaceholder": "logo",
+        "image": "/images/partners/logo-grupa_robocza.svg",
         "text": "Grupa Robocza Foundation to krakowska fundacja zajmująca się innowacyjną edukacją projektową i interdyscyplinarną współpracą. Dzięki podejściu do technologii i eksperymentowania skoncentrowanemu na planecie, Grupa Robocza tworzy przestrzeń dla osób z różnych dziedzin do rozwijania praktycznych i twórczych rozwiązań. Zapewniając lokalne wsparcie matchingowe dla Resiliency Gardens Incubator w Krakowie, Fundacja pomaga edukatorom i partnerom społecznym rozwijać nowe modele nauki na świeżym powietrzu, edukacji środowiskowej i odpornych systemów żywnościowych."
       }
-    ]
+    ],
+    "friends": {
+      "title": "Friends of Resiliency Gardens",
+      "firstText": "Resiliency Gardens zapuściło korzenie dzięki indywidualnym darczyńcom, którzy uwierzyli w ten pomysł, zanim stał się szeroko znany. Wielu z naszych najwcześniejszych wspierających stanowili członkowie rodzin, przyjaciele oraz osoby poruszone potrzebą pomocy dzieciom w ponownym połączeniu z naturą, jedzeniem i sobą nawzajem w czasie wstrząsów. Ich hojność pomogła uruchomić nasze pierwsze ogrody szkolne, wesprzeć lokalnych edukatorów, przyjąć ukraińskie dzieci we wspólnych przestrzeniach nauki oraz rozwinąć model, który miasta i społeczności mogą dziś adaptować.",
+      "secondText": "Każdy dar pomógł Resiliency Gardens zapuścić korzenie i rosnąć. Jesteśmy głęboko wdzięczni wszystkim naszym darczyńcom, w tym tym, którzy pozostają anonimowi, i zaszczyceni, że możemy wyróżnić osoby i rodziny poniżej, które wyraziły zgodę na podanie ich imion.",
+      "names": [
+        "Anna Kowalska",
+        "Michael Berg",
+        "Elena Petrova",
+        "James Whitfield",
+        "Marta Nowak",
+        "David Chen",
+        "Sophie Laurent",
+        "Tomasz Zieliński",
+        "Rachel Abrams",
+        "Piotr Kamiński",
+        "Claire Hoffman",
+        "Andrei Volkov",
+        "Naomi Adler",
+        "Lucas Moreau",
+        "Helena Sjöberg"
+      ]
+    }
   },
   "sponsorsSection": {
     "title": "Sponsorzy naszej szkoły",
@@ -340,5 +360,9 @@
     }
   },
   "donateButton": "Przekazać darowiznę",
+  "donateCta": {
+    "title": "Pomóż zasadzić kolejne nasiona odporności.",
+    "text": "Twoje wsparcie umożliwia dzieciom i młodzieży uczenie się od natury, udział w zrównoważonych systemach żywnościowych, budowanie pewności siebie i dobrostanu oraz troskę o zdrowie naszej planety. Każdy dar pomaga tworzyć ogrody, wspierać lokalnych edukatorów i budować doświadczenia edukacyjne, które mogą kształtować młode życie przez lata."
+  },
   "loadDocumentButton": "Wyświetlić plik"
 }

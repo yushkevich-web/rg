@@ -265,15 +265,35 @@
       },
       {
         "name": "Rachel E. Golden Foundation",
-        "logoPlaceholder": "logo",
         "text": "The Rachel E. Golden Foundation supports small, original, and innovative changemakers working to build a more humane, healthy, and hopeful world. Rooted in Rachel Golden’s belief in the healing and connective power of nature, the Foundation invests in practical, creative, early-stage initiatives that strengthen communities, restore connection, and grow lasting sources of resilience and hope."
       },
       {
-        "name": "Grupa Robocza Foundation",
-        "logoPlaceholder": "logo",
+        "image": "/images/partners/logo-grupa_robocza.svg",
         "text": "Grupa Robocza Foundation is a Kraków-based foundation dedicated to innovative design education and interdisciplinary collaboration. With a planet-centered approach to technology and experimentation, Grupa Robocza creates space for people from different fields to develop practical and imaginative solutions. By providing local matching support for the Resiliency Gardens Incubator in Kraków, the Foundation is helping educators and community partners grow new models for outdoor learning, environmental education, and resilient food systems."
       }
-    ]
+    ],
+    "friends": {
+      "title": "Friends of Resiliency Gardens",
+      "firstText": "Resiliency Gardens took root because individual donors believed in the idea before it was widely known. Many of our earliest supporters were family members, friends and people moved by the need to help children reconnect with nature, food, and one another during a time of upheaval. Their generosity helped launch our first school gardens, support local educators, welcome Ukrainian children into shared learning spaces, and grow a model that cities and communities can now adapt.",
+      "secondText": "Every gift has helped Resiliency Gardens take root and grow. We are deeply grateful to all of our donors, including those who remain anonymous, and honored to recognize the individuals and families below who have given permission to be named.",
+      "names": [
+        "Anna Kowalska",
+        "Michael Berg",
+        "Elena Petrova",
+        "James Whitfield",
+        "Marta Nowak",
+        "David Chen",
+        "Sophie Laurent",
+        "Tomasz Zieliński",
+        "Rachel Abrams",
+        "Piotr Kamiński",
+        "Claire Hoffman",
+        "Andrei Volkov",
+        "Naomi Adler",
+        "Lucas Moreau",
+        "Helena Sjöberg"
+      ]
+    }
   },
   "sponsorsSection": {
     "title": "Our School Sponsors",
@@ -340,5 +360,9 @@
     }
   },
   "donateButton": "Donate here",
+  "donateCta": {
+    "title": "Help plant the next seeds of resilience.",
+    "text": "Your support makes it possible for children and youth to learn from nature, take part in sustainable food systems, build confidence and well-being, and care for the health of our planet. Every gift helps grow gardens, support local educators, and create learning experiences that can shape young lives for years to come."
+  },
   "loadDocumentButton": "View document"
 }

@@ -215,20 +215,22 @@ export default {
 
 .intro {
   @include F28-400;
-  max-width: 58rem;
-  margin: 0 auto 3rem auto;
-  padding: 2rem 2.5rem;
+  font-size: 1.25rem;
+  line-height: 145%;
+  max-width: 100%;
+  margin: 0 0 3rem 0;
+  padding: 1.5rem 2rem;
   border-radius: 1.25rem;
   background-color: rgba(255, 255, 255, 0.72);
   box-shadow: 0 0.25rem 1.5rem rgba(53, 53, 53, 0.05);
   text-align: center;
-  line-height: 150%;
   @include custom(1050) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   @include custom(530) {
     font-size: 1.1rem;
-    padding: 1.5rem;
+    line-height: 140%;
+    padding: 1.25rem 1.25rem;
   }
 }
 

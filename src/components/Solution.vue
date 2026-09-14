@@ -5,7 +5,12 @@
       {{ $t("solutionSection.description") }}
     </div>
     <div :class="$style.schoolGardensBlock">
-      <div :class="$style.placeholder">placeholder</div>
+      <div :class="$style.image">
+        <img
+          src="/images/work/img-school_gardens.jpg"
+          :alt="$t('solutionSection.schoolGardens.title')"
+        />
+      </div>
       <div :class="$style.featureText">
         <div :class="$style.subtitle">
           {{ $t("solutionSection.schoolGardens.title") }}
@@ -32,10 +37,20 @@
           {{ $t("solutionSection.educationalPartners.learnMore") }}
         </button>
       </div>
-      <div :class="$style.placeholder">placeholder</div>
+      <div :class="$style.image">
+        <img
+          src="/images/work/img-edu_partners.jpg"
+          :alt="$t('solutionSection.educationalPartners.title')"
+        />
+      </div>
     </div>
     <div :class="$style.schoolGardensBlock">
-      <div :class="$style.placeholder">placeholder</div>
+      <div :class="$style.image">
+        <img
+          src="/images/work/img-model_cities.jpg"
+          :alt="$t('solutionSection.modelCities.title')"
+        />
+      </div>
       <div :class="$style.featureText">
         <div :class="$style.subtitle">
           {{ $t("solutionSection.modelCities.title") }}
@@ -152,7 +167,7 @@ export default {
         grid-template-columns: 1fr;
       }
     }
-    &.reverse .placeholder {
+    &.reverse .image {
       @include custom(760) {
         order: 1;
       }
@@ -162,21 +177,16 @@ export default {
         order: 2;
       }
     }
-    .placeholder {
-      @include F28-600;
+    .image {
       width: 100%;
-      aspect-ratio: 1 / 1;
       max-width: 36rem;
       margin: 0 auto;
-      border-radius: 0.625rem;
-      background-color: #d9d9d9;
-      color: $black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      @include custom(530) {
-        font-size: 1.25rem;
+      & img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        display: block;
+        border-radius: 0.625rem;
       }
     }
     .featureText {

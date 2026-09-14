@@ -7,7 +7,12 @@
     <LocalSwitcher />
 
     <section :class="$style.citySection">
-      <div :class="$style.imagePlaceholder">placeholder</div>
+      <div :class="$style.image">
+        <img
+          src="/images/work/img-rybnik.jpg"
+          :alt="$t('modelCitiesPage.rybnik.title')"
+        />
+      </div>
       <div :class="$style.content">
         <h1 :class="$style.title">{{ $t("modelCitiesPage.rybnik.title") }}</h1>
         <p :class="$style.description">
@@ -71,7 +76,12 @@
           {{ $t("modelCitiesPage.krakow.description") }}
         </p>
       </div>
-      <div :class="$style.imagePlaceholder">placeholder</div>
+      <div :class="$style.image">
+        <img
+          src="/images/work/img-cracow.jpg"
+          :alt="$t('modelCitiesPage.krakow.title')"
+        />
+      </div>
     </section>
 
     <section :class="$style.detailSection">
@@ -224,27 +234,17 @@ export default {
   }
 }
 
-.imagePlaceholder {
-  @include F28-600;
-  font-size: 1.15rem;
+.image {
   width: 100%;
-  aspect-ratio: 1 / 1;
   max-width: 28rem;
   margin: 0 auto;
-  border-radius: 1.25rem;
-  background: linear-gradient(
-    145deg,
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(160, 196, 198, 0.2) 100%
-  );
-  box-shadow: 0 0.5rem 2rem rgba(53, 53, 53, 0.06);
-  color: rgba(53, 53, 53, 0.45);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  @include custom(530) {
-    font-size: 1.25rem;
+  & img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.25rem;
+    box-shadow: 0 0.5rem 2rem rgba(53, 53, 53, 0.06);
   }
 }
 
@@ -363,7 +363,8 @@ export default {
 }
 
 .highlightNumber {
-  @include F64-900;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
   font-size: 2.5rem;
   line-height: 100%;
   margin-bottom: 0.35rem;
